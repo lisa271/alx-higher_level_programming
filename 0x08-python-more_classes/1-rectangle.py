@@ -4,13 +4,22 @@
 
 class Rectangle:
     """Represent a rectangle."""
+<<<<<<< HEAD
 
     def __init__(self, width=0, height=0):
         """Initialize a new Rectangle.
+=======
+    def __init__(self, width=0, height=0):
+        """Initialize the new Rectangle.
+>>>>>>> d165e6257c97081c4633f6a87cf0f8d13f362177
         Args:
             width (int): The width of the new rectangle.
             height (int): The height of the new rectangle.
         """
+<<<<<<< HEAD
+=======
+
+>>>>>>> d165e6257c97081c4633f6a87cf0f8d13f362177
         self.width = width
         self.height = height
 
@@ -18,7 +27,11 @@ class Rectangle:
     def width(self):
         """Get/set the width of the rectangle."""
         return self.__width
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> d165e6257c97081c4633f6a87cf0f8d13f362177
     @width.setter
     def width(self, value):
         if not isinstance(value, int):
@@ -32,6 +45,10 @@ class Rectangle:
         """Get/set the height of the rectangle."""
         return self.__height
 
+<<<<<<< HEAD
+=======
+        
+>>>>>>> d165e6257c97081c4633f6a87cf0f8d13f362177
     @height.setter
     def height(self, value):
         if not isinstance(value, int):
