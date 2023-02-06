@@ -13,3 +13,7 @@ Write a function that returns True if the object is an instance of a class that 
 
 task 5
 Write an empty class BaseGeometry.
+
+task 6
+Write a class BaseGeometry (based on 5-base_geometry.py).
+    Public instance method: def area(self): that raises an Exception with the message area() is not implemented
