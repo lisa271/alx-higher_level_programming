@@ -1,4 +1,4 @@
-#!usr/bin/node
+#!/usr/bin/node
 //a script printing three lines.
 console.log("Cis fun");
 console.log("Python is cool");
